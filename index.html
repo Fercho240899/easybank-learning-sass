@@ -14,19 +14,43 @@
 
 <body>
   <header class="header">
-    <img src="./static/images/logo.svg" alt="">
-    <nav class="menu"></nav>
+    <div class="wrapper">
+      <div class="header__content">
+        <img class="header__logo" src="./static/images/logo.svg" alt="">
+        <ul class="menu">
+          <li>
+            <a href="">Home</a>
+          </li>
+          <li>
+            <a href="">About</a>
+          </li>
+          <li>
+            <a href="">Contact</a>
+          </li>
+          <li>
+            <a href="">Blog</a>
+          </li>
+          <li>
+            <a href="">Careers</a>
+          </li>
+        </ul>
+        <button class="button">request invite</button>
+        <nav class="menu__button"></nav>
+      </div>
+    </div>
 
   </header>
   <section class="hero ">
     <div class="wrapper">
-      <div class="hero__image">
-
+      <div class="hero__content">
+        <div class="hero__image"></div>
+        <div class="hero__description">
+          <h1 class="title__h1">Next generation digital banking</h1>
+          <p class="copy">Take your financial life online. Your Easybank acconunt will be a one-stop-shop for spending.
+            saving, budgeting, investing, and much more.</p>
+          <button class="button">Request invite</button>
+        </div>
       </div>
-      <h1 class="title__h1">Next generation digital banking</h1>
-      <p class="copy">Take your financial life online. Your Easybank acconunt will be a one-stop-shop for spending.
-        saving, budgeting, investing, and much more.</p>
-      <button class="button">Request invite</button>
     </div>
   </section>
 
@@ -153,7 +177,7 @@
   <footer class="footer">
 
     <div class="wrapper">
-      <svg xmlns="http://www.w3.org/2000/svg" width="139" height="20">
+      <svg class="footer__logo" xmlns="http://www.w3.org/2000/svg" width="139" height="20">
         <defs>
           <linearGradient id="a" x1="72.195%" x2="17.503%" y1="0%" y2="100%">
             <stop offset="0%" stop-color="#33D35E" />
@@ -178,39 +202,38 @@
         <a href="" class="icon__pinterest"></a>
         <a href="" class="icon__instagram"></a>
       </p>
+      <div class="footer__links">
+        <a href="#" class="footer__link">
+          About Us
+  
+        </a>
+        <a href="#" class="footer__link">
+          Contact
+  
+        </a>
+        <a href="#" class="footer__link">
+          Blog
+  
+        </a>
+        <a href="#" class="footer__link">
+          Careers
+  
+        </a>
+        <a href="#" class="footer__link">
+          Support
+  
+        </a>
+        <a href="#" class="footer__link">
+          Privacy
+  
+        </a>
 
-      <a href="#" class="footer__link">
-        About Us
+      </div>
 
-      </a>
-      <a href="#" class="footer__link">
-        Contact
-
-      </a>
-      <a href="#" class="footer__link">
-        Blog
-
-      </a>
-      <a href="#" class="footer__link">
-        Careers
-
-      </a>
-      <a href="#" class="footer__link">
-        Support
-
-      </a>
-      <a href="#" class="footer__link">
-        Privacy
-
-      </a>
-
-      <div>
+      <div class="footer__button">
         <button class="button">
           Request Invite
         </button>
-
-
-
 
       </div>
       <p class="footer__copyright">
