@@ -1,8 +1,10 @@
 .header{
     //border: 10px solid red;
-    display: flex;
+    //display: flex;
     padding: 1em 0;
     justify-content: space-between;
+    position: relative;
+
 
     &__logo{
         align-self: center;
