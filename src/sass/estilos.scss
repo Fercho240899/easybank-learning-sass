@@ -18,10 +18,15 @@
     font-size: 16px;
     --wrapperSpace: 1.5em;
 }
+html{
+    //overflow: hidden;
+}
 body{
     font-family: 'Public Sans', sans-serif;
     margin: 0;
     color: var(--grayBlue);
+    overflow-x: hidden;
+    //border: 10px solid red;
 }
 .copy{
     line-height: 1.7;
@@ -29,7 +34,7 @@ body{
 }
 
 .is-hidden{
-    display: none;
+    display: none !important;
     /*line-height: 1.7;
     font-size: .9em;*/
 
@@ -79,8 +84,8 @@ body{
     border: none;
     padding: .9em 2.2em;
     border-radius: 1.5em;
-    color: var(--white);
     font-size: 1em;
+    color: var(--white);
     background-image: linear-gradient(to right, var(--limeGreen) 0%, var(--rightCyan) 100%);
 }
 
